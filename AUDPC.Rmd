@@ -1,0 +1,21 @@
+---
+title: "AUDPC Analysis"
+author: "Sei"
+date: "2018/06/25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Loading Packages
+
+```{r library}
+library(agricolae)
+library(dplyr)
+library(ggplot2)
+```
+
+##Session information
+This records the version of R
